@@ -15,7 +15,6 @@ const SearchBar = ({ setSearchResult }) => {
 
   useEffect(() => {
     const callApi = async () => {
-      console.log('api called', searchTerm);
       const url = `https://www.googleapis.com/customsearch/v1?key=${API_KEY}&cx=${CX_ID}&${searchParameter}=${searchTerm}`;
 
       const response = await fetch(url);
@@ -41,13 +40,11 @@ const SearchBar = ({ setSearchResult }) => {
   }, [searchTerm, setSearchResult]);
 
   return (
-    <div>
-      <InputField
-        value={searchTerm}
-        onChangeCallback={onChangeHandler}
-        className={'oh-custom-search'}
-      />
-    </div>
+    <InputField
+      value={searchTerm}
+      onChangeCallback={onChangeHandler}
+      className={'oh-custom-search'}
+    />
   );
 };
 

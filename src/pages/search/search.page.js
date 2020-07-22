@@ -7,14 +7,13 @@ import './search.styles.css';
 const SearchPage = () => {
   const [searchResult, setSearchResult] = useState([]);
 
-  console.log(searchResult);
   return (
     <div className="container">
       <header>
         <h1 className="page-title">Oh. Search</h1>
         <SearchBar setSearchResult={setSearchResult} />
-        <SearchResultContainer searchResult={searchResult} />
       </header>
+      <SearchResultContainer searchResult={searchResult} />
     </div>
   );
 };

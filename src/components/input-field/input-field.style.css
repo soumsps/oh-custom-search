@@ -11,4 +11,12 @@
 }
 
 .oh-custom-search {
+  flex: none;
+  width: 500px;
+  height: 40px;
+  margin-left: 70px;
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+  box-shadow: -1px 4px 5px 0px #d8d8d8;
 }

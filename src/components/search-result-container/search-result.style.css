@@ -1,0 +1,42 @@
+.result-item {
+  list-style: none;
+  display: flex;
+  padding: 10px 30px;
+}
+
+.thumbnail-container {
+  width: 120px;
+  height: 100px;
+  padding: 10px 20px;
+}
+
+.img-thumbnail {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.content-group {
+  padding: 10px 20px;
+  max-width: 600px;
+}
+
+.link {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  color: dimgrey;
+}
+
+.title {
+  margin: 8px 0px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #2c2c2c;
+}
+
+.excerpt {
+  margin: 15px 0px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #1b1b1b;
+}
