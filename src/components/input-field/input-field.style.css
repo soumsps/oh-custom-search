@@ -1,0 +1,14 @@
+.input-field {
+  flex: 1 1 auto;
+  display: block;
+  padding: 5px;
+  font-size: 15px;
+  color: #595959;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.oh-custom-search {
+}

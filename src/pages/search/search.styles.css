@@ -1,0 +1,11 @@
+.page-title {
+  color: #f55b22;
+}
+
+header {
+  display: flex;
+}
+
+.container {
+  margin: 10px 15px;
+}
