@@ -1,17 +1,17 @@
 import React from 'react';
 import './search-result.style.css';
 
-const SearchResultContainer = ({ searchResult }) => {
+const SearchResultContainer = ({ pageResult }) => {
   return (
     <div>
       <ul>
-        {searchResult.map((item, index) => (
+        {pageResult.map((item, index) => (
           // Will have to look for better key, instead of array index
           <li className="result-item" key={index}>
             <div className="thumbnail-container">
               <img
                 className="img-thumbnail"
-                src={item.pagemap.cse_thumbnail[0]['src']}
+                src={'https://live.openhouse.study/oh_meta.png'}
                 alt="thumbnail"
               />
             </div>

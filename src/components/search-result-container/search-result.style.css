@@ -40,3 +40,27 @@
   font-size: 14px;
   color: #1b1b1b;
 }
+
+.pagination-links {
+  list-style: none;
+  display: flex;
+  padding: 0px;
+  justify-content: center;
+}
+
+.page-link {
+  padding: 5px;
+  border-radius: 2px;
+  background-color: #efefef;
+  min-width: 20px;
+  text-align: center;
+  margin: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.page-link.active {
+  background-color: #ff6a3b;
+  color: white;
+}
